@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'CG';
+	src: url('../../assets/fonts/CabinetGrotesk_Complete/Fonts/Variable/CabinetGrotesk-Variable.ttf') format('truetype');
+}
+
+*  {
+	box-sizing: border-box !important;
+	font-family: 'CG';
+}
+
+html {
+	scroll-behavior:  smooth !important;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #fff;
+}
+
+#navbar {
+	width: 100vw;
+	background-color: #fff;
+	/* box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); */
+}
+
+#navbar-inner {
+	width: clamp(70vw, 70vw, 100vw);
+	height: auto;
+	min-height: 6rem;
+	background-color: #fff;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	font-weight: 700 !important;
+}
+
+#navbar-list {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navbar-li {
+	margin-left: 1rem;
+}
+
+.navbar-anchor {
+	text-decoration: none;
+	color: #555;
+	font-size: 16px;
+	font-weight: 500;
+}
